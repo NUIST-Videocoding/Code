@@ -1,0 +1,33 @@
+###################### Base Settings######################
+test_during_training: True
+
+### database ###
+TID2013:
+  datainfo:
+  im_dir:
+TID2008:
+  datainfo:
+  im_dir:
+TID2013blur:
+  datainfo:
+  im_dir:
+TID2008blur:
+  datainfo:
+  im_dir:
+LIVE:
+  datainfo: ./data/LIVEfullinfo.mat
+  im_dir: ./data/databaserelease2/
+
+patch_size: 32
+stride: 32
+
+train_ratio: 0.8
+val_ratio: 0.1
+test_ratio: 0.1
+
+### model ###
+CNNIQA:
+  kernel_size: 7
+  n_kernels: 50
+  n1_nodes: 1024
+  n2_nodes: 1024
