@@ -1,6 +1,6 @@
 h5py==2.7.1
 numpy==1.14.2
-PyYAML==3.12
+PyYAML==5.1
 scipy==1.0.1
 tensorflow-gpu==1.0.0
 torch==0.4.1
