@@ -1,0 +1,16 @@
+PyTorch 0.4 implementation of the following paper Z. Cheng, M. Takeuchi and J. Katto, A Pre-Saliency Map Based Blind Image Quality Assessment via Convolutional Neural Networks, 2017 IEEE International Symposium on Multimedia (ISM), Taichung, 2017, pp. 77-82. 
+	Requirements 
+		torch 'pip install -i httpmirrors.aliyun.compypisimple --trusted-host mirrors.aliyun.com torch' 
+		PIL 'pip install pillow' 
+		scipy 'pip install scipy' 
+		numpy 'pip install numpy' 
+		h5py 'pip install h5py' 
+		yaml 'pip install pyyaml' 
+		TensorboardX (httpsgithub.comlanpatensorboard-pytorch) pip install tensorboardX 
+		Tensorboard pip install tensorflow (or just install tensorboard without the rest of tensorflow) 
+	Usage Start tensorboard 
+		tensorboard --logdir=tensorboard_logs --port=6006 
+	Run the main.py 
+		CUDA_VISIBLE_DEVICES=0 python main.py --exp_id=0
+Modified by Zhaoqing Pan£¬Implemented by Dingquan Li£¨httpsgithub.comlidq92CNNIQA£© 
+Email pan_zhaoqing@hotmail.com 
