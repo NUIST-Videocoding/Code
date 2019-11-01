@@ -36,7 +36,7 @@ python main1.py --batch_size=128 --epochs=2000 --lr=0.0001 --exp_id=0 --database
 
 ### Testing
 
-During the training phase, the *Val* and *Test* data will be process. And the testing result will be shown.
+During the training phase, the *Val* and *Test* data will be processed. And the testing result will be shown.
 
 ### Visualization
 
@@ -46,5 +46,5 @@ tensorboard --logdir=tensorboard_logs --port=6006
 
 ### Note
 
-Modified by [*Zhaoqing Pan*](mailto:pan_zhaoqing@hotmail.com). Implemented by Dingquan Li https://github.com/lidq92/CNNIQAEmail 
+Modified by [*Zhaoqing Pan*](http://multimedia-nuist.atwebpages.com/), Email: pan_zhaoqing@hotmail.com. Implemented by [*Dingquan Li*](https://github.com/lidq92/CNNIQA)
 
